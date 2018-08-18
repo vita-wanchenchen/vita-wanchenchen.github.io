@@ -202,12 +202,11 @@ input[type=submit]:hover {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     color: #777777;
     clear: both;
-    width: 960px;
+    width: 940px;
     height: 450px;
     position: relative;
     margin:0 auto;
     background-color: #ffffff;
     border-color: #dddddd;
     margin-bottom: 20px;
-    padding: 20px;
 }
