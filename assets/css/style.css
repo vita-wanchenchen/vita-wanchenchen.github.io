@@ -1,0 +1,212 @@
+html {
+    background-image: url(/assets/images/background_gravel.png)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#headerwrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+}
+
+#name { 
+    position: relative;
+    top: -10px;
+    left: 280px;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    float: left;
+    padding: 19px;
+}
+
+#content {
+    clear: both;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 26px;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-bottom: solid #cccccc;
+}
+
+#me {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    line-height: 28px;
+}
+
+footer {
+    clear: both;
+    padding: 25px;
+    background-color: #666666;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container-1 {
+    position: relative;    
+}
+
+.hangman {
+    position: absolute;
+    top: 200px;
+    width:35%;
+    text-align: center;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-2 {
+    position: relative;
+}
+
+.RPG {
+    position: absolute;
+    top: 200px;
+    left: 349px;
+    width:35%;
+    text-align: center;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-3 {
+    position: relative;
+}
+
+.trivia {
+    position: absolute;
+    top: 505px;
+    width:35%;
+    text-align: center;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-4 {
+    position: relative;
+}
+
+.widget {
+    position: absolute;
+    top: 505px;
+    left: 349px;
+    width:35%;
+    text-align: center;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-5 {
+    position: relative;
+}
+
+.rps {
+    position: absolute;
+    top: 817px;
+    width:35%;
+    text-align: center;
+    color: #ffffff; 
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 960px; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container-6 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+    clear: both;
+    width: 960px;
+    height: 450px;
+    position: relative;
+    margin:0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-bottom: 20px;
+}
