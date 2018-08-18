@@ -47,7 +47,7 @@ html {
 #content {
     clear: both;
     width: 960px;
-    height: 500px;
+    height: 600px;
     position: relative;
     top: 20px;
     margin:0 auto;
@@ -209,4 +209,5 @@ input[type=submit]:hover {
     background-color: #ffffff;
     border-color: #dddddd;
     margin-bottom: 20px;
+    padding: 20px;
 }
