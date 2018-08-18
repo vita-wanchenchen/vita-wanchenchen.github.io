@@ -57,6 +57,19 @@ html {
     padding: 10px;
 }
 
+#content-p {
+    clear: both;
+    width: 960px;
+    height: 900px;
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
 h1 {
     color: #4aaaa5;
     font-size: 26px;
