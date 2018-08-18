@@ -176,11 +176,12 @@ img {
 }
 
 input[type=text], select, textarea {
-    width: 930px; 
+    width: 900px; 
     padding: 12px;  
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin: 0 auto;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
