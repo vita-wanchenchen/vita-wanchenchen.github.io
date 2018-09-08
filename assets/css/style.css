@@ -181,6 +181,11 @@ h3 {
     border-bottom: 0;
 }
 
+.projects h3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #me {
     float: left;
     width: 200px;
