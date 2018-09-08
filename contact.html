@@ -3,54 +3,59 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Viat Chen</title>
+    <title>Portfolio | Viat Chen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
 
-    <header>
-        <div class="navbar">
-            <div id="headerwrapper">
-                
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
+    <header id="headerbar">
+
+        <div class="container">
+            <a href="index.html" id="logo">Vita Chen</a>
+            <nav>
                 <a href="index.html">About</a>
-                            
-            </div>
-        </div>                           
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a> 
+            </nav>            
+        </div>           
     </header>
 
-    <div id="name">
-        Vita Chen
-    </div>
+    <div class="wrapper">
+    <div id="content-container" class="container">
 
-    <div id="content">
-
-    <div class="container-6">
+        <section class="main-content">
 
         <h1>Contact</h1>
 
-        <form>
-        
-        <label for="yourname">Name</label>
-        <input type="text" id="yourname" name="yourname" placeholder="John Smith">
-      
-        <label for="youremail">Email</label>
-        <input type="text" id="youremail" name="youremail" placeholder="example@gmail.com">
-      
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder=" " style="height:200px"></textarea>
-      
-        <input type="submit" value="Submit">
+        <form id="contact-form">
+          <div class="form-input">
+            <label for="yourname">Name</label>
+            <input type="text" id="yourname" name="yourname" placeholder="John Smith">
+          </div>
+          <div class="form-input">
+            <label for="youremail">Email</label>
+            <input type="text" id="youremail" name="youremail" placeholder="example@gmail.com">
+          </div>
+          <div class="form-input">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder=" " style="height:200px"></textarea>
+          </div>
+        <input type="submit">
       
         </form>
+    </section>
+    
+    <div class="push"></div>
       </div>
-
     </div>
       
-      <footer></footer>   
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer> 
     
 
 </body>
