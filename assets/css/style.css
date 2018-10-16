@@ -306,7 +306,7 @@ input[type=submit] {
   
     nav{
       float: none;
-      margin: 100px 80px 15px 200px;
+      margin: 100px 80px 15px 150px;
     }
   
     #main-container{
@@ -362,7 +362,7 @@ input[type=submit] {
   
     nav{
         float: none;
-        margin: 90px 30px 5px 100px;
+        margin: 90px 30px 5px 70px;
         font-size: 15px;
     }
 
