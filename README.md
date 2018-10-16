@@ -2,7 +2,7 @@
 
 ## Overview
 
-Basic Portfolio built with HTML/CSS and meet the instruction of the Assignment 1 at GT Coding BootCamp.
+Profolio built bith HTML and CSS.
 
 ## Files List
 
