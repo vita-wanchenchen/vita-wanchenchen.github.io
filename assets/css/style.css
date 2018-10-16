@@ -35,7 +35,6 @@ footer,
     clear: both;
 }
 
-h1,
 h3,
 p {
     margin-bottom: 20px;
@@ -52,11 +51,24 @@ h3 {
     color: #4aaaa5; 
 }
 
-h1 {
-    font-size: 30px;
-    padding-bottom: 20px;
-    line-height: 49px;
+.top-bar {
     border-bottom: 3px solid #dddddd;
+}
+
+h1 {
+    margin-right: 600px;
+    float: left;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+img.social-media {
+    opacity: 0.5;
+    width: 55px;
+}
+
+img.social-media:hover {
+    opacity: 1;
 }
 
 h3 {
