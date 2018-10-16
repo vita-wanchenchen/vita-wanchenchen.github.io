@@ -1,5 +1,7 @@
 # Basic-Portfolio
 
+https://vita-wanchenchen.github.io/
+
 ## Overview
 
 Profolio built bith HTML and CSS.
@@ -8,7 +10,6 @@ Profolio built bith HTML and CSS.
 
 .index.html
 .portfolio.html
-.contact.html
 .style.css
 .README.md
 
