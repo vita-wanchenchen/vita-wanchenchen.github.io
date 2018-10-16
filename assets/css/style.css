@@ -56,7 +56,7 @@ h3 {
 }
 
 h1 {
-    margin-right: 600px;
+    margin-right: 550px;
     float: left;
     font-size: 30px;
     line-height: 49px;
@@ -105,6 +105,7 @@ h3 {
 nav {
     float: right;
     margin-top: 25px;
+    margin-right: 20px;
 }
 
 
@@ -165,6 +166,13 @@ h3 {
 }
 
 /* portfolio page */
+
+p.direction {
+    margin-top: 15px;
+    line-height: 10px;
+    font-style: italic;
+    color: #175e5a;
+}
 
 .projects {
     position: relative;
@@ -252,7 +260,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 953px) {
     body {
       width: 100%;
     }
@@ -267,7 +275,7 @@ input[type=submit] {
     }
 
     h1 {
-        margin-right: 570px;
+        margin-right: 540px;
     }
   
   }
@@ -287,7 +295,7 @@ input[type=submit] {
     }
     
     h1 {
-        margin-right: 390px;
+        margin-right: 360px;
     }
   }
 
@@ -298,7 +306,7 @@ input[type=submit] {
   
     nav{
       float: none;
-      margin: 100px 80px 15px 150px;
+      margin: 100px 80px 15px 200px;
     }
   
     #main-container{
@@ -311,7 +319,11 @@ input[type=submit] {
     }
     
     h1 {
-        margin-right: 250px;
+        margin-right: 230px;
+    }
+
+    img.social-media {
+        width: 50px;
     }
   
     .auth-image {
@@ -343,14 +355,14 @@ input[type=submit] {
     
   }
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 460px) {
     body {
       width: 100%;
     }
   
     nav{
         float: none;
-        margin: 90px 30px 5px 45px;
+        margin: 90px 30px 5px 100px;
         font-size: 15px;
     }
 
@@ -370,7 +382,11 @@ input[type=submit] {
     
     h1 {
         font-size: 25px;
-        margin-right: 60px;
+        margin-right: 65px;
+    }
+
+    img.social-media {
+        width: 45px;
     }
   
     .auth-image {
