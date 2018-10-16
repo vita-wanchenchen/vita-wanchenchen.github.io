@@ -106,6 +106,11 @@ nav a {
     border-left: 1px solid #ffffff;
 }
 
+nav a:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 nav a:first-child {
     border-left: 0 none;
 }
@@ -152,7 +157,7 @@ h3 {
 .projects {
     position: relative;
     float: left;
-    width: 274px;
+    width: 300px;
     margin: 20px 0 25px;
     overflow: auto;
 }
@@ -162,7 +167,8 @@ h3 {
 }
 
 .projects img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
     border: 0 none;
     opacity: 0.8;
 }
@@ -170,7 +176,7 @@ h3 {
 .projects h3 {
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 300px;
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
